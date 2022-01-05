@@ -10,6 +10,8 @@ let GameTableActorRow = React.createClass({
     actor: PropTypes.string.isRequired
   },
 
+  //this is a comment
+
   render() {
     const { round, actor } = this.props
     const hand = round[`${actor}Hand`]

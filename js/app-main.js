@@ -5,5 +5,6 @@ import ReactDOM from 'react-dom'
 const rootEl = document.getElementById('react-container')
 
 import history from './history'
+//this is a new comment 
 
 ReactDOM.render(<Root history={history} />, rootEl)

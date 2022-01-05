@@ -15,6 +15,7 @@ function getAllState() {
 }
 
 // Create APP component.
+//new app var created
 var APP = React.createClass({
 
   getInitialState() {
